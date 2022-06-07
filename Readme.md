@@ -24,3 +24,4 @@ Use a Version Control System (preferably Git or Mercurial). Put the source code 
 See the sample on next site.
 
 ## Sample input/output
+![image](https://user-images.githubusercontent.com/71412070/172300275-a0e83570-bef1-4390-b1fb-51910f7dff00.png)
