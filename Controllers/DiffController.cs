@@ -28,7 +28,7 @@ namespace DescartesApi.Controllers
 
         // GET: v1/diff/1
         [HttpGet("{id}")]
-        public async Task<ActionResult<DiffResult>> Get(long id)
+        public async Task<ActionResult<DiffResult>> GetById(long id)
         {
             // Check input parameters
             if (id <= 0) return BadRequest("Invalid id");
@@ -70,7 +70,7 @@ namespace DescartesApi.Controllers
         // PUT: v1/diff/1/left
         // PUT: v1/diff/1/right
         [HttpPut("{id}/{side}")]
-        public async Task<IActionResult> PutLeft(long id, string side, DiffInput diffInput)
+        public async Task<IActionResult> PutById(long id, string side, DiffInput diffInput)
         {
             // 1- Check input parameters
             if (side != "left" && side != "right") return NotFound();
