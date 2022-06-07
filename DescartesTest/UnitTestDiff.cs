@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DescartesApi.Controllers;
-using DescartesApi.Models;
-
 namespace DescartesTest;
 
 [TestClass]
@@ -15,7 +8,8 @@ public class UnitTestDiff
     {
         // var diffController = new DiffController();
         // var result = diffController.GetAll();
-        //Assert
+        var a = 1;
+        Assert.Equal(1, a);
     }
 
     [TestMethod]
@@ -23,11 +17,15 @@ public class UnitTestDiff
     {
         // var diffController = new DiffController();
         // var result = diffController.GetAll();
-        //Assert
+        var a = 1;
+        Assert.Equal(1, a);
     }
 
     [TestMethod]
     public void TestPutById()
     {
+        var a = 1;
+        Assert.Equal(1, a);
     }
+    
 }

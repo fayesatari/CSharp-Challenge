@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescartesApi", "DescartesApi\DescartesApi.csproj", "{2B965CFA-E8FC-4423-9E4E-EA1C2F2FFA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescartesTest", "DescartesTest\DescartesTest.csproj", "{F02C32B1-2E12-4AC9-9BC4-152622F11D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B965CFA-E8FC-4423-9E4E-EA1C2F2FFA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B965CFA-E8FC-4423-9E4E-EA1C2F2FFA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B965CFA-E8FC-4423-9E4E-EA1C2F2FFA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B965CFA-E8FC-4423-9E4E-EA1C2F2FFA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02C32B1-2E12-4AC9-9BC4-152622F11D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02C32B1-2E12-4AC9-9BC4-152622F11D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02C32B1-2E12-4AC9-9BC4-152622F11D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02C32B1-2E12-4AC9-9BC4-152622F11D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
