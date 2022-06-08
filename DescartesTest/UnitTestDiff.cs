@@ -14,7 +14,7 @@ public class UnitTestDiff
 {
     //private readonly DiffController _controller;
 
-    [TestMethod]
+    //[TestMethod]
 
     // public void TestGetAll()
     // {
