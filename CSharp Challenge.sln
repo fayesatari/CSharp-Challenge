@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DescartesApi", "DescartesApi\DescartesApi.csproj", "{FD449C5F-980A-4211-8ADF-104FFF5E8BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescartesTest", "DescartesTest\DescartesTest.csproj", "{DD303ACF-CD47-40BB-B682-09887C2FD2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD449C5F-980A-4211-8ADF-104FFF5E8BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD449C5F-980A-4211-8ADF-104FFF5E8BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD449C5F-980A-4211-8ADF-104FFF5E8BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD449C5F-980A-4211-8ADF-104FFF5E8BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD303ACF-CD47-40BB-B682-09887C2FD2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD303ACF-CD47-40BB-B682-09887C2FD2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD303ACF-CD47-40BB-B682-09887C2FD2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD303ACF-CD47-40BB-B682-09887C2FD2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D96EDD99-BD99-4665-839B-EA0188EA724E}
+	EndGlobalSection
+EndGlobal
